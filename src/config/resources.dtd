@@ -1,0 +1,15 @@
+<!ELEMENT resources (databases, mappings*)>
+	<!ATTLIST resources xmlns CDATA #FIXED "http://example.com/resources">
+	<!ATTLIST resources xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance">
+	<!ATTLIST resources xsi:schemaLocation CDATA #FIXED "http://example.com/resources resources.xsd">
+	<!ELEMENT databases (database+)>
+		<!ELEMENT database (url, user, password, name)>
+			<!ATTLIST database name ID #REQUIRED>
+			<!ELEMENT url (#PCDATA)>
+			<!ELEMENT user (#PCDATA)>
+			<!ELEMENT password (#PCDATA)>
+			<!ELEMENT name (#PCDATA)>
+	<!ELEMENT mappings (forward+)>
+		<!ELEMENT forward (path)>
+			<!ATTLIST forward name ID #REQUIRED>
+			<!ELEMENT path (#PCDATA)>

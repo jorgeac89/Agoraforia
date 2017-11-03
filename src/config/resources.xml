@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources SYSTEM "resources.dtd">
+<resources
+	xmlns="http://example.com/resources"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://example.com/resources resources.xsd">
+	<databases>
+		<database name="local">
+			<url>localhost</url>
+			<user>root</user>
+			<password></password>
+			<name>webAgoraforia</name>
+		</database>
+	</databases>
+	<mappings>
+		<forward name="drive">
+			<path>resources/views/drive.php</path>
+		</forward>
+		<forward name="forums">
+			<path>resources/views/forums.php</path>
+		</forward>
+		<forward name="forum">
+			<path>resources/views/forum.php</path>
+		</forward>
+		<forward name="post">
+			<path>resources/views/post.php</path>
+		</forward>
+		<forward name="postEditor">
+			<path>resources/views/postEditor.php</path>
+		</forward>
+		<forward name="groupEditor">
+			<path>resources/views/groupEditor.php</path>
+		</forward>
+		<forward name="registration">
+			<path>resources/views/regForm.php</path>
+		</forward>
+		<forward name="userPage">
+			<path>resources/views/userPage.php</path>
+		</forward>
+	</mappings>
+</resources>

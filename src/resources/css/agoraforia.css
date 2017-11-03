@@ -1,0 +1,401 @@
+@font-face {
+	font-family: 'Script mt Bold';
+	src: url('../ttf/Script_mt_Bold.ttf');
+}
+
+body {
+	background-image: url('../images/background.png');
+	font-family: verdana;
+	font-size: 13px;
+}
+
+div {
+	word-wrap: break-word;
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#navigationBar {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 7px;
+	background-color: rgb(55, 40, 170);
+	overflow: hidden;
+}
+
+#navigationBar>span>span,#navigationBar>span>span>* {
+	font-family: 'Script mt Bold';
+	text-decoration: none;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#navigationBar>span.pullLeft>span:nth-child(n+2){
+	padding: 3px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #0000FF;
+	border-radius: 3px;
+	background: linear-gradient(to bottom, #0000FF, #00003F);
+	text-shadow: 0px 0px 3px #000000;
+}
+
+#navigationBar>span>span>form {
+	display: inline;
+}
+
+#content {
+	margin-left: 13%;
+	margin-right: 13%;
+	margin-top: 20px;
+}
+
+#mainBar {
+	float: left;
+	width: 73%;
+}
+
+#mainBar>div {
+	margin-bottom: 30px;
+	padding: 25px;
+	border-radius: 7px;
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+#mainBar>div>h2 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#mainBar>div>h2>a {
+	text-decoration: none;
+	color: black;
+}
+
+#mainBar>div>table, #mainBar>div>form>table {
+	margin: 20px 0px 20px 0px;
+}
+
+#forums>h2 {
+	font-family: 'Script mt Bold';
+}
+
+#forums>table>tbody>tr>td>h3, #forum>table>tbody>tr>td>h3{
+	margin: 0px;
+	font-family: arial;
+	text-shadow: 0px 0px 4px #FFFFFF;
+}
+
+#forums>table>tbody>tr>td>h3>a, #forum>table>tbody>tr>td>h3>a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#forum>h2 {
+	font-family: 'Script mt Bold';
+}
+
+.postContent>img {
+	border: solid 5px black;
+	border-radius: 7px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.postDate {
+	margin-top: 30px;
+	color: green;
+}
+
+.comment {
+	margin-bottom: 30px;
+	padding: 15px;
+	border: solid 2px black;
+	border-radius: 7px;
+	background-color: #819FF7;
+}
+
+.comment>h3 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.commentInfo {
+	background-color: #E6E6E6;
+	margin-bottom: 30px;
+	border: solid;
+	border-radius: 5px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.commentInfo>span {
+	padding-right: 20px;
+}
+
+.commentUser>a {
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.commentDate {
+	color: green;
+}
+
+.editBar {
+	margin-bottom: 10px;
+}
+
+#driveBar>span>span {
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #0000FF;
+	border-radius: 0px 15px 15px 0px;
+	background: #819FF7;
+}
+
+#driveMessage{
+	padding: 8px;
+	text-align: center;
+}
+
+#userInfo{
+	text-align: center;
+}
+
+#vertBars {
+	float: right;
+	width: 24%;
+}
+
+.vertBar {
+	margin-bottom: 30px;
+	border-radius: 7px;
+	background-color: rgba(255, 255, 255, 0.95);
+	overflow: hidden;
+}
+
+.vertBar>h3 {
+	margin: 0px;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Script mt Bold';
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 0px 0px 3px #000000;
+	border-radius: 7px 7px 0px 0px;
+	background-color: rgb(55, 40, 170);
+}
+
+.vertBar>div, .vertBar>form>div{
+	font-size: 15px;
+	margin: 10px;
+	padding: 0px 3px 0px 0px;
+	border-style: solid;
+	border-width: 0px 0px 2px 2px;
+	font-size: 15px;
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+.vertBar>div:hover, .vertBar>form>div:hover {
+	border-color: #FFFF00;
+	border-width: 0px 0px 3px 3px;
+	font-size: 17px;
+}
+
+.vertBar>div>a, .vertBar>form>div>a, .vertBar>div>p, .vertBar>form>div>p{
+	display: block;
+	margin: 0px;
+	padding: 2px 10px 2px 10px;
+	color: #000000;
+	text-decoration: none;
+	float: left;
+}
+
+.vertBar>form>div>button {
+	float: right;
+}
+
+.verticalTable {
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+
+.verticalTable>tbody>tr:nth-child(even){
+	background-color: #AFAFFF;
+}
+
+.verticalTable>tbody>tr:nth-child(odd){
+	background-color: #DFDFFF;
+}
+
+.verticalTable>thead>tr>th,.verticalTable>thead>tr>td{
+	background-color: #7F7FFF;
+}
+
+.verticalTable>thead>tr>th,.verticalTable>tbody>tr>th,.verticalTable>tfoot>tr>th {
+	padding: 3px 10px 3px 10px;
+	text-align: left;
+	font-family: arial;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	text-align: left;
+}
+
+.verticalTable>thead>tr>td,.verticalTable>tbody>tr>td,.verticalTable>tfoot>tr>td{
+	padding: 3px 10px 3px 10px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+}
+
+.verticalTable>thead>tr>td:even,.verticalTable>tbody>tr>td:even,.verticalTable>tfoot>tr>td:even{
+	background-color: red;
+}
+
+.horizontalTable{
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+
+.horizontalTable>tbody>tr:nth-child(even){
+	background-color: #AFAFFF;
+}
+
+.horizontalTable>tbody>tr:nth-child(odd){
+	background-color: #DFDFFF;
+}
+
+.horizontalTable>thead>tr>th,.horizontalTable>tbody>tr>th,.horizontalTable>tfoot>tr>th{
+	padding: 2px;
+	text-align: left;
+	font-family: arial;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	text-align: left;
+}
+
+.horizontalTable>thead>tr>td,.horizontalTable>tbody>tr>td,.horizontalTabletfoot>tr>td{
+	padding: 2px;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	text-align: left;
+}
+
+.formTable>tfoot>tr>td {
+	padding: 5px;
+	text-align: center;
+}
+
+.toolBar {
+	padding: 3px 5px 3px 5px;
+	background: linear-gradient(to bottom, #0000FF, #00003F);
+	border-style: solid;
+	border-width: 1px;
+	border-color: #0000FF;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: left;
+}
+
+.icon {
+	width: 36px;
+	height: 36px;
+	vertical-align: middle;
+}
+
+.mediumIcon {
+	width: 27px;
+	height: 27px;
+	vertical-align: middle;
+}
+
+.smallIcon {
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.button,.button>option {
+	color: white;
+	font-family: arial;
+	font-size: 17px;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px #000000;
+	background-color: #1657A2;
+}
+
+.button {
+	padding: 2px 3px 2px 3px;
+	background: linear-gradient(to bottom, #258BFF, #1657A2);
+	border-style: solid;
+	border-width: 0px 0px 0px 0px;
+	border-color: #0000FF;
+	border-radius: 3px;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+.button:hover,.button>option:hover {
+	background: linear-gradient(to bottom, #258BCC, #1657A2);
+	box-shadow: 0px 0px 2px 1px #FFFFFF inset;
+}
+
+.button:active:hover,.button>option:active:hover {
+	background: #1657A2;
+	box-shadow: 0px 0px 2px 1px #CCCCCC inset;
+}
+
+.textInput, .largeTextInput, .longTextInput {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	border-radius: 3px;
+}
+
+.largeTextInput{
+	display: block;
+	width: 100%;
+}
+
+.longTextInput {
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+
+.customFileInput {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+.customFileInput>input {
+	font-size: 1000px;
+	position: absolute;
+	opacity: 0;
+}
+
+.pullLeft {
+	float: left;
+}
+
+.pullRight {
+	float: right;
+}

@@ -1,0 +1,10 @@
+# Windows auto generated files
+Thumbs.db
+
+#Eclipse auto generated files
+/.settings/
+.buildpath
+.project
+
+#User folders
+/users/
